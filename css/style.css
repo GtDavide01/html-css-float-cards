@@ -38,13 +38,15 @@ html{
     clear: both;
 }
 .row{
+    margin-left: 20px;
     margin-bottom: 60px;
 }
 .col{
-    width: calc(100% / 3) ;
+    width: calc(100% / 3 - 40px) ;
     float: left;
     background-color: rgb(15, 14, 23);
     margin-right: 40px;
+    box-shadow: 5px 5px 5px rgb(82, 82, 87 );
 }
 .col img{
     height: 120px;
@@ -69,5 +71,10 @@ html{
     color: rgb(64,122,164);
     margin-left: 20px;
     font-size: 1.2rem;
+}
+.col::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
