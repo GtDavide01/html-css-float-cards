@@ -1,9 +1,72 @@
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* COMMON */
 html{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
 }
+
+/* Conatiner Main */
+.container{
+    width: 70%;
+    margin: 5rem auto;
+}
+
+/* Section Title */
+.section-title{
+    text-align: center;
+}
+.section-title h1{
+ font-size: 2.5rem;
+ color: rgb(229, 49, 112);
+ margin-bottom: 50px;
+}
+.section-title p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+/* /Section title */
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    margin-bottom: 60px;
+}
+.col{
+    width: calc(100% / 3);
+    float: left;
+    background-color: rgb(15, 14, 23);
+    margin-right: 40px;
+}
+.col img{
+    height: 120px;
+    float: left;
+}
+.col h2{
+    margin-top: 10px;
+    color: white;
+    margin-left: 140px;
+}
+.col p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.col a{
+    text-decoration: none;
+    color: rgb(64,122,164);
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
