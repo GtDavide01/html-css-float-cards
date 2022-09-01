@@ -41,7 +41,7 @@ html{
     margin-bottom: 60px;
 }
 .col{
-    width: calc(100% / 3);
+    width: calc(100% / 3) ;
     float: left;
     background-color: rgb(15, 14, 23);
     margin-right: 40px;
@@ -62,6 +62,7 @@ html{
     margin-top: 10px;
     margin-left: 140px;
 }
+
 
 .col a{
     text-decoration: none;
